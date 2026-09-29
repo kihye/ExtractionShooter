@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 470a363d572bd804681c68c99f271c4e, type: 3}
+  m_Name: BaseShopCatalog
+  m_EditorClassIdentifier: Assembly-CSharp::ShopCatalog
+  shopName: Base Trader
+  currencyDisplayName: Credits
+  buyEntries:
+  - item: {fileID: 11400000, guid: 86b6f21986f746e8b7070a3d0a100203, type: 2}
+    unitPrice: 2
+  - item: {fileID: 11400000, guid: 6dd6cbf038bd46b78f77906b7af6e860, type: 2}
+    unitPrice: 35
+  sellEntries:
+  - item: {fileID: 11400000, guid: bba0aa9d8b384d2f9e89d68dc8c71e74, type: 2}
+    unitPrice: 8
+  - item: {fileID: 11400000, guid: 0aa0282d4b74408db6043a280898884b, type: 2}
+    unitPrice: 55

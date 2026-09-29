@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b7f0b8c2c7e4f5e8a0efb8fdfbe75a1, type: 3}
+  m_Name: GameSessionState
+  m_EditorClassIdentifier: Assembly-CSharp::GameSessionState
+  initialCredits: 250
+  initialAmmoStock: 72
+  initialStashItems:
+  - item: {fileID: 11400000, guid: b2691053c40f444194b7cbf8c95b5e84, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: c635f4181cb54b398192c2e7594c430e, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: afba3876a38d420b9efa6ed69fb5a7ff, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: ec5c3c48947b4c99a228cade6a6b0086, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: 8141b95194bb4e3cacb18ee1592fa88a, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: ac1570884e894aeaa66604c5a6418d1c, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: a2097ec6214d404da56e01b05b061f45, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: b3006cb6fc834b1983977a470e820052, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: a2d1a1e0df00489aaf93fe428f06c081, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: fad6a04d54ab4067b666515df3c7c1ea, type: 2}
+    amount: 1
+  stashGridWidth: 12
+  stashGridHeight: 12
